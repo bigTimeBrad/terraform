@@ -9,6 +9,6 @@ resource "azurerm_resource_group" "dev" {
   }
 }
 
-output "resource-group-name" {
+output "rg_name" {
     value = "${azurerm_resource_group.dev.name}"
 }
