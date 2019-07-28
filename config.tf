@@ -10,5 +10,5 @@ resource "azurerm_resource_group" "dev" {
 }
 
 output "resource-group-id" {
-    value = "${azurerm_resource_group.dev.id}"
+    value = "${azurerm_resource_group.dev.name}"
 }
